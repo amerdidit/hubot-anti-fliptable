@@ -1,8 +1,6 @@
-# Hubot: hubot-fliptable
+# Hubot: hubot-chill-yo
 
-[![Build Status](https://travis-ci.org/jjasghar/hubot-fliptable.png?branch=master)](https://travis-ci.org/jjasghar/hubot-fliptable)
 
-Sometimes you need to flip a table.
 
 See [`src/fliptable.coffee`](src/fliptable.coffee) for full documentation.
 
