@@ -2,7 +2,7 @@
 
 
 
-See [`src/fliptable.coffee`](src/fliptable.coffee) for full documentation.
+See [`src/chill_yo.coffee`](src/chill_yo.coffee) for full documentation.
 
 ## Installation
 

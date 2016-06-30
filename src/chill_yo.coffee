@@ -15,6 +15,6 @@
 
 module.exports = (robot) ->
 
-  robot.hear /\(tableflip\)|\(╯°□°）╯︵ ┻━┻|\(ノ ゜Д゜\)ノ ︵ ┻━┻|\(ﾉಥ益ಥ）ﾉ﻿ ┻━┻/i, (msg) ->
+  robot.hear /\(tableflip\)/i, (msg) ->
     msg.send '┬─┬﻿ ノ( ゜-゜ノ)'
 
