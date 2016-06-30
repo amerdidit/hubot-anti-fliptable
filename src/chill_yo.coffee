@@ -15,6 +15,17 @@
 
 module.exports = (robot) ->
 
-  robot.hear /\(tableflip\)/i, (msg) ->
-    msg.send '┬─┬﻿ ノ( ゜-゜ノ)'
+  robot.hear /\(tableflip\)|┻┻|┻━┻/i, (msg) ->
+    responses = [
+      '┬─┬﻿ ノ( ゜-゜ノ)',
+      '┬─┬﻿ ︵ /(.□. \）',
+      '┬─┬ ノ( ^_^ノ)',
+      'Chill yo. ┬─┬﻿ ノ( ゜-゜ノ)',
+      'Please respect the tables! ┬─┬﻿ ノ( ゜-゜ノ)',
+      '┬──┬﻿ ¯\_(ツ)'
+      '(╯°Д°）╯︵ /(.□ . \)',
+      '(/ .□.)\ ︵╰(゜Д゜)╯︵ /(.□. \)',
+      'y u no respect table? (._.)',
+    ]
+    msg.send msg.random responses
 
