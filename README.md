@@ -1,25 +1,23 @@
-# Hubot: hubot-chill-yo
+# Hubot: hubot-please-respect-table
 
-
-
-See [`src/chill_yo.coffee`](src/chill_yo.coffee) for full documentation.
+See [`src/please-respect-table.coffee`](src/please-respect-table.coffee) for full documentation.
 
 ## Installation
 
-Add **hubot-fliptable** to your `package.json` file:
+Add **hubot-please-respect-table** to your `package.json` file:
 
 ```json
 "dependencies": {
   "hubot": ">= 2.5.1",
   "hubot-scripts": ">= 2.4.2",
-  "hubot-fliptable": ">= 0.0.0"
+  "hubot-please-respect-table": "hubot-please-respect-table"
 }
 ```
 
 Add **hubot-fliptable** to your `external-scripts.json`:
 
 ```json
-["hubot-fliptable"]
+["hubot-please-respect-table"]
 ```
 
 Run `npm install hubot-fliptable`
@@ -27,6 +25,6 @@ Run `npm install hubot-fliptable`
 ## Sample Interaction
 
 ```
-user1> hubot flip 
-Hubot> (╯°□°）╯︵ ┻━┻
+user1> (╯°□°）╯︵ ┻━┻ 
+Hubot> 'Please respect the tables! ┬─┬﻿ ノ( ゜-゜ノ)'
 ```
